@@ -10,6 +10,7 @@ return new class extends Migration
     /**
      * Run the migrations.
      */
+    /* creo struttura tabella trains */
     public function up(): void
     {
         Schema::create('trains', function (Blueprint $table) {

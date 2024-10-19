@@ -15,9 +15,9 @@ class TrainSeeder extends Seeder
     {
 
         Train::truncate();
-
+        /* creo dati fittizzi per riempire la tabella trains */
         
-        for ($i=0; $i < 10; $i++) { 
+        for ($i=0; $i < 50; $i++) { 
             $train = new Train();
             $train->company = fake()->company();
             $train->departing_from = fake()->city();
